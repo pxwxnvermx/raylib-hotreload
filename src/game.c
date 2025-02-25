@@ -2,6 +2,8 @@
 #include "raylib.h"
 
 void game_draw(GameState *game_state, const float delta) {
+  (void)game_state;
+  (void)delta;
   // game_draw code
   BeginDrawing();
   ClearBackground(RAYWHITE);
